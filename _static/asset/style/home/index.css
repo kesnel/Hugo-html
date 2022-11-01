@@ -1,0 +1,232 @@
+/*[ BANNER ]
+///////////////////////////////////////////////////////////
+*/
+
+.banner{
+    width: 100%;
+    height: 90vh;
+
+    position: relative;
+}
+
+.banner .overlay,
+.banner .banner_slider{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.banner .banner_slide{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    pointer-events: none;
+
+    background-color: var(--co-a);
+}
+
+/*[ ABOUT THE BOOK ]
+///////////////////////////////////////////////////////////
+*/
+
+.tit_hdr_cc,
+.top_hdr_cc{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.section_cto_link{
+    display: inline-block;
+
+    padding: 14px 40px;
+
+    background-color: var(--co);
+    border-radius: 360px;
+    color: var(--co-white);
+    font-weight: 800;
+}
+
+/* %%% */
+
+.latest_book{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.latest_book ._2bo.grid_2s{
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.latest_book .figure_book{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.latest_book .figure_book img{
+    width: 88%;
+}
+
+
+/*[ TESTIMONIALS ]
+///////////////////////////////////////////////////////////
+*/
+
+.testi{
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    background-color: rgba(var(--co-rgb), .03);
+}
+.testi .top_hdr{
+}
+
+.testi_grid{
+    padding-top: 50px;
+}
+.testi_grid.grid_2{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.testi_box{
+    width: 100%;
+    
+    padding: 30px 30px 30px 30px;
+
+    border-radius: 10px;
+    position: relative;
+
+    background-color: var(--co);
+    color: var(--co-white);
+}
+
+.testi_box .quote_sign{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.testi_box .quote_sign svg{
+    width: 36px;
+    height: 36px;
+
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
+.testi_box .quote_sign svg path{
+    fill: var(--co-white);
+}
+
+.testi_box .quote_inner{
+    font-style: italic;
+    font-size: 105%;
+}
+
+.testi_box .quote_profil{
+    padding-top: 20px;
+    margin-top: 20px;
+
+    border-top: 1px solid rgba(var(--co-white-rgb), .3);
+    
+    gap: 10px;
+}
+.testi_box .quote_profil .quote_foto{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testi_box .quote_profil .quote_profil_info .q_name{
+    font-size: 100%;
+    font-weight: 700;
+}
+.testi_box .quote_profil .quote_profil_info .q_title{
+    font-size: 14px;
+    font-style: italic;
+    opacity: .8;
+}
+
+
+/*[ AUTHOR ]
+///////////////////////////////////////////////////////////
+*/
+
+.author{
+    width: 100%;
+
+    background-color: var(--co);
+    color: var(--co-white);
+
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.auth_profil{
+    text-align: center;
+}
+.auth_profil .auth_profil_img{
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    margin: 0 auto;
+}
+
+.auth_bio .auth_bio_tit{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.auth_bio{
+    text-align: left;
+
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.bio_follow{
+    padding-top: 36px;
+    text-align: center;
+}
+.bio_follow .tic{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.bio_follow_links{
+    padding-top: 10px;
+    justify-content: center;
+}
+.bio_follow_links .bio_follow_link{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(var(--co-black-rgb), .1);
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    margin: 0 6px;
+}
+.bio_follow_links .bio_follow_link:hover{
+    background-color: rgba(var(--co-black-rgb), .15);
+}
+.bio_follow_links .bio_follow_link svg{
+    width: 35%;
+    height: 35%;
+}
+.bio_follow_links .bio_follow_link svg path{
+    fill: var(--co-white);
+}
